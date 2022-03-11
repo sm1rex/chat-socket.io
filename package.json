@@ -1,0 +1,17 @@
+{
+  "name": "chat-socket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js --exec babel-node -e js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.1.2"
+  }
+}
